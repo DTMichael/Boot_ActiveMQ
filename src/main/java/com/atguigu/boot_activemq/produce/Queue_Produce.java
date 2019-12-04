@@ -14,7 +14,7 @@ public class Queue_Produce {
     private JmsMessagingTemplate jmsMessagingTemplate;
 
     @Autowired
-    private Queue queue;
+    private Queue queue;//
 
     public void produceMsg()
     {
